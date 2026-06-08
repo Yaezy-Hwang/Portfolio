@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+:root {
+    --color-bg: #f8fafc;
+    --color-surface: #eef0f4;
+    --text-main: #4a4a4a;
+
+    --color-accent: #3966b7;
+    --color-point: #9fc3e3;
+    --color-highlight: rgb(180 215 246 / .5);
+    --color-code: #d63384;
+    --color-code-bg: #f1f3f5;
+    
+    --color-border: var(--color-accent);
+    --color-border-sub: #d4d5d6;
+    --color-hover: #6083c9;
+
+}
