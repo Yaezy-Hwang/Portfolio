@@ -65,7 +65,10 @@ a, a:visited {
 }
 
 section {
-    margin-top: 5rem;
+    margin-top: 6rem;
+}
+main > section:last-child {
+    margin-bottom: 5rem;
 }
 #information {
     margin-top: 48px;
@@ -108,12 +111,13 @@ section {
 [class$="container"] {
     padding: 24px 0;
 }
-.grid-container {
+
+section > .grid-container:nth-child(n+2) {
     display: grid;
     gap: 24px;
     grid-template-columns: 180px 1fr;
 }
-.grid-container:not(#introduce) {
+section > div:last-child {
     border-bottom: 1px solid var(--color-border-sub);
 }
 section > div:last-child {
