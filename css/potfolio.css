@@ -112,15 +112,15 @@ main > section:last-child {
     padding: 24px 0;
 }
 
-section > .grid-container:nth-child(n+2) {
+.grid-container {
     display: grid;
     gap: 24px;
     grid-template-columns: 180px 1fr;
 }
-section > div:last-child {
+section > .grid-container {
     border-bottom: 1px solid var(--color-border-sub);
 }
-section > div:last-child {
+section > .grid-container:last-child {
     border: none;
 }
 .grid-container h3, 
